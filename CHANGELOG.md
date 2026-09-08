@@ -1,7 +1,10 @@
-## Unreleased
+## v0.13.5
 
 - Add `Error::is_dns()` to identify errors caused by DNS resolution failures.
 - Add `ClientBuilder::http1_max_headers(usize)` to configure the maximum number of headers accepted in an HTTP/1 response (default 100).
+- Add TLS version to `TlsInfo` extension.
+- Fix hickory-dns feature to use `Ipv6AndIpv4` strategy to prefer IPv6.
+- Fix sending wrong proxy-auth if multiple proxies intercept a given URL.
 
 ## v0.13.4
 

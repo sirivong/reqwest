@@ -1,6 +1,6 @@
 [package]
 name = "reqwest"
-version = "0.13.4"
+version = "0.13.5"
 description = "higher level HTTP client library"
 keywords = ["http", "request", "client"]
 categories = ["web-programming::http-client", "wasm"]
